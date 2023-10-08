@@ -1,4 +1,4 @@
-export const API_KEY = 'BQYMXhD1JOlPEN5lpkJ2OZWXe7Fu2XAs'
+export const API_KEY = process.env.BITQUERY_API_KEY
 export const GET_PAIR_INFO_QUERY = `
 query ($pairAddress: String!) {
   ethereum(network: bsc) {

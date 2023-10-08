@@ -1,3 +1,4 @@
 node_modules
 dist
 charting_library
+.env
